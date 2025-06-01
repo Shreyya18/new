@@ -7,7 +7,7 @@ export const About = () => {
 
     return <section id="about" className=" min-h-screen flex items-center justify-center py-20 ">
         <RevealOnScroll>
-        <div className=" max-w-3xl max-auto px-4">
+        <div className=" max-w-3xl max-auto px-4 text-xl md:text-2xl">
             <h2 className=" text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 0 bg-clip-text text-transparent">About Me</h2>
             <div className=" rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                 <p className="text-gray-300 mb-6">
@@ -41,20 +41,33 @@ export const About = () => {
             </div>
 
 
-            <div className="gri grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+            <div className="gri grid-cols-1 md:grid-cols-2 gap-6 mt-8 text-xl">
                         <div className="p-6 rounded-xl border-white/10 hover:translate-y-1 trnsition-all ">
                         <h3 className="text-xl font-bold  mb-4">🏫 Education</h3>
                         <ul className="list-disc list-inside text-gray-300 space-y-2">
                             <li>
-                                <strong>B.E in Computer Science </strong>
-                                 - AJ Institute of Engineerning & Technology (2022-2026)
+                                <strong>B.E - Computer Science & Engineering (2022-Present) </strong>
+                                <p>
+                                 AJ Institute of Engineerning & Technology | CGPA - 9.18 
+                                </p>
                             </li>
-                            <li></li>
+                            <br />
+                            <li>
+                                <strong>Pre University - PCMC (2020-2022)</strong>
+                                <p>St Sebastian PU College Ullal, Permannur | Percentage - 96.83
+                                </p>
+                            </li>
+                            <br />
+                            <li>
+                                <strong>Secondary School (SSLC) (2019-2020)
+                                </strong>
+                                <p>Vidya Rathna English Medium School, Deralakatte | Percentage - 85</p>
+                            </li>
                         </ul>
                         </div>
-                        <div className="p-6 rounded-xl border-white/10 hover:translate-y-1 trnsition-all ">
+                        {/* <div className="p-6 rounded-xl border-white/10 hover:translate-y-1 trnsition-all ">
                         <h3 className="text-xl font-bold  mb-4">🏫 Education</h3>
-                        </div>
+                        </div> */}
             </div>
         </div>
         </RevealOnScroll>

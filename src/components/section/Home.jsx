@@ -1,7 +1,7 @@
 import { RevealOnScroll } from "../RevealOnScroll"
 
 export const Home = () => {
-    return <section id="home" className="min-w-max  min-h-screen flex items-center justify-center m-24">
+    return <section id="home" className="min-w-max min-h-screen flex items-center justify-center py-20 ">
         <RevealOnScroll>
         <div className="text-center z-10 px-4 ">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-600 bg-clip-text 

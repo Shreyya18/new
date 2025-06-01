@@ -5,7 +5,7 @@ export const About = () => {
     const ProgrammingLang=["C", "C++","Java", "Python", "SQL"];
 
 
-    return <section id="about" className=" min-h-screen flex items-center justify-center py-20 ">
+    return <section id="about" className="min-w-max min-h-screen flex items-center justify-center py-20 ">
         <RevealOnScroll>
         <div className=" max-w-3xl max-auto px-4 text-xl md:text-2xl">
             <h2 className=" text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 0 bg-clip-text text-transparent">About Me</h2>

@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async';
 export const Home = () => {
     return <section id="home" className="min-w-max min-h-screen flex items-center justify-center py-20 m-0">
         <Helmet>
-            <title>Shreya poojary's Portfolio</title>
+            <title>Shreya's Portfolio</title>
             <meta name="description" content="Explore Shreya's Portfolio." />
             <meta name="keywords" content=" Shreya, React, JavaScript, Developer, Portfolio, Projects" />
         </Helmet>

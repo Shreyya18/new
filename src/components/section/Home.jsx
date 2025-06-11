@@ -3,30 +3,30 @@ import { Helmet } from 'react-helmet-async';
 
 export const Home = () => {
     return <section id="home" className="min-w-max min-h-screen flex items-center justify-center py-20 m-0">
-         <Helmet>
-        <title>Shreya’s Portfolio</title>
-        <meta name="description" content="Explore Shreya's Portfolio." />
-        <meta name="keywords" content=" Shreya, React, JavaScript, Developer, Portfolio, Projects" />
-      </Helmet>
+        <Helmet>
+            <title>Shreya’s Portfolio</title>
+            <meta name="description" content="Explore Shreya's Portfolio." />
+            <meta name="keywords" content=" Shreya, React, JavaScript, Developer, Portfolio, Projects" />
+        </Helmet>
 
         <RevealOnScroll>
-        <div className="text-center z-10 px-4 ">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-600 bg-clip-text 
+            <div className="text-center z-10 px-4 ">
+                <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-600 bg-clip-text 
             text-transparent leading-right
             ">Hi, I'm Shreya</h1>
-            <p className="text-gray-400  mb-8  max-w-lg mx-auto text-xl">
-                A dedicated individual specializing in web development and problem-solving, with a strong commitment to
-                continuous learning and team collaboration.
-            </p>
-            <div className="flex justify-center space-x-4">
-                <a href="#project" className="bg-blue-500  text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgb(59,130,246,0.4)] ">
-                    View Projects
-                </a>
-                <a href="#contact" className=" border border-blue- 500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200  hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgb(59,130,246,0.2)] hover:bg-blue-500/10 ">
-                    Contact Me
-                </a>
+                <p className="text-gray-400  mb-8  max-w-lg mx-auto text-xl">
+                    A dedicated individual specializing in web development and problem-solving, with a strong commitment to
+                    continuous learning and team collaboration.
+                </p>
+                <div className="flex justify-center space-x-4">
+                    <a href="#project" className="bg-blue-500  text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgb(59,130,246,0.4)] ">
+                        View Projects
+                    </a>
+                    <a href="#contact" className=" border border-blue- 500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200  hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgb(59,130,246,0.2)] hover:bg-blue-500/10 ">
+                        Contact Me
+                    </a>
+                </div>
             </div>
-        </div>
         </RevealOnScroll>
     </section>
 }

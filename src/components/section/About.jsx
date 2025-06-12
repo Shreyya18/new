@@ -5,12 +5,14 @@ export const About = () => {
     const ProgrammingLang=["C", "C++","Java", "Python", "SQL"];
 
 
-    return <section id="about" className="min-w-max min-h-screen flex items-center justify-center py-20 m-0 ">
+    return <section id="about" className="w-screen h-fit flex items-center justify-center px-4 py-10 md:py-20 md:px-0 overflow-hidden">
+        
         <RevealOnScroll>
-        <div className=" max-w-3xl max-auto px-4 text-xl md:text-2xl">
+        <div className=" w-full max-w-screen-md mx-auto text-center">
+            
             <h2 className=" text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 0 bg-clip-text text-transparent flex justify-center">About Me</h2>
             <div className=" rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-                <p className="text-gray-300 mb-6">
+                <p className="text-gray-300 mb-6 text-xl">
                     Adaptable web developer driven by growth, creativity, and problem-solving.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
@@ -18,7 +20,7 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4">Frontend</h3>
                         <div className="flex flex-wrap gap-2">
                             {frontendSkills.map((tech,key)=>(
-                                <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20  hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition ">
+                                <span key={key} className="bg-blue-500/10  text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20  hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition ">
                                     {tech}
                                 </span>
                             ))}
@@ -43,8 +45,8 @@ export const About = () => {
 
             <div className="gri grid-cols-1 md:grid-cols-2 gap-6 mt-8 text-xl">
                         <div className="p-6 rounded-xl border-white/10 hover:translate-y-1 trnsition-all ">
-                        <h3 className="text-xl font-bold  mb-4">🏫 Education</h3>
-                        <ul className="list-disc list-inside text-gray-300 space-y-2">
+                        <h3 className="text-xl font-bold  mb-4 text-left">🏫 Education</h3>
+                        <ul className="list-disc list-inside text-gray-300 space-y-2 text-left">
                             <li>
                                 <strong>B.E - Computer Science & Engineering (2022-Present) </strong>
                                 <p>

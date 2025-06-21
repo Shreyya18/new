@@ -62,7 +62,7 @@ export const Project = () => {
                         ))}
                     </div>
                     <div className="flex justify-center items-center">
-                        <a href="#" className=" hover:text-blue-300 text-blue-400 transition-colors my-4">View Project ➡️ </a>
+                        <a href="https://movieland-s.netlify.app/" className=" hover:text-blue-300 text-blue-400 transition-colors my-4">View Project ➡️ </a>
                     </div>
                 </div>
             </div>
